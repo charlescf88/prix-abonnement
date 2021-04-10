@@ -133,22 +133,22 @@ a{
     background: linear-gradient(#e66465, #9198e5);
     transform: scale(1.1);
 }
-.block-content:hover .learn{
+.block-content:hover .learn, .block-content:active .learn{
     background: white;
 }
-.block-content:hover a{
+.block-content:hover a, .block-content:active a{
     color: hsl(237, 63%, 64%);
 }
-.block-content:hover hr {
+.block-content:hover hr , .block-content:active hr{
     color: white ;
 }
-.block-content:hover h1{
+.block-content:hover h1 , .block-content:active h1{
     color: white;
 }
-.block-content:hover h2{
+.block-content:hover h2, .block-content:active h2{
     color: white;
 }
-.block-content:hover p{
+.block-content:hover p, .block-content:active p{
     color: white;
 }
 #second-block{
