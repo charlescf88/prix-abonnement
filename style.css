@@ -129,7 +129,7 @@ a{
     margin: 0 auto;
     padding: 7px 0px ;
 }
-.block-content:hover {
+.block-content:hover,.block-content:active {
     background: linear-gradient(#e66465, #9198e5);
     transform: scale(1.1);
 }
@@ -178,4 +178,5 @@ a{
         margin-bottom: auto;
     
     }
+
 }
